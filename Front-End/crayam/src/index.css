@@ -4,7 +4,7 @@ html,body{
     height: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 10pt;
-    background: linear-gradient(45deg, white, #C2A070);
+    background: linear-gradient(225deg, white, #c2a07082);
 }
 #root{
     width: 100%;
