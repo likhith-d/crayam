@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100..900&display=swap');
 
 .home {
     display: grid; 
@@ -17,39 +17,76 @@
 .urbanist {
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 400;
     font-style: normal;
-  }
+}
 
-.left{
+.left {
     grid-column: 1/2;
     text-align: justify;
     font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content properly */
 }
 
-.right{
+.right {
     grid-column: 3/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content properly */
 }
 
+/* LOGO FIX */
 .home-logo {
     display: flex;
-    font-size: 60px;
+    align-items: center; /* Ensures text and logo align vertically */
+    font-size: 70px;
     font-weight: 600;
+    gap: 0px; /* Ensures no gap between "c" and "rayam" */
 }
 
-.login_heading{
+.home-logo p {
+    margin: 0;
+    padding: 0;
+    line-height: 1; /* Ensures no extra space */
+    display: flex;
+    align-items: center;
+}
+
+.logo-part-1 {
+    color: #9C6B30;
+    margin-right: -2px; /* Slightly overlaps to remove any space */
+}
+
+.logo-part-2 {
+    color: black;
+}
+
+.logo-image {
+    height: 80px; /* Adjust based on text size */
+    width: auto;
+    display: block; /* Removes inline spacing issues */
+    margin-left: 15px;
+}
+
+.login_heading {
     font-size: 45px;
     font-weight: 500;
 }
-input{
+
+input {
     width: 85%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #9C6B30;
     border-radius: 100px;
     font-size: 17px;
+    font-weight: 100;
+    color: #000000;
 }
-button{
+
+button {
     width: 90%;
     padding: 10px;
     margin: 10px 0;
@@ -58,30 +95,24 @@ button{
     border: none;
     border-radius: 100px;
     font-size: 17px;
+    cursor: pointer;
 }
-button:hover{
+
+button:hover {
     background-color: #7f4f24;
 }
-button:active{
+
+button:active {
     background-color: #000000;
 }
-input:focus{
+
+input:focus {
     border: 2px solid #9C6B30;
     outline: none;
 }
-.right-text{
+
+.right-text {
     font-size: 19px;
-}
-.logo-part-1 {
-    color: #9C6B30;
-}
-
-.logo-part-2 {
-    color: black;
-}
-
-.logo-image {
-    width: 50px;
-    height: auto;
-    margin-left: 10px;
+    font-weight: 500;
+    margin-left: 7px;
 }
