@@ -5,6 +5,7 @@ html,body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 10pt;
     background: linear-gradient(225deg, white, #c2a07082);
+    cursor: url("/pointer.svg") 0 0, auto;
 }
 #root{
     width: 100%;
